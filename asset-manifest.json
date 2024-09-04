@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/v_lab-practice-/static/css/main.b8b01f5d.css",
-    "main.js": "/v_lab-practice-/static/js/main.8454bb5a.js",
-    "index.html": "/v_lab-practice-/index.html",
-    "main.b8b01f5d.css.map": "/v_lab-practice-/static/css/main.b8b01f5d.css.map",
-    "main.8454bb5a.js.map": "/v_lab-practice-/static/js/main.8454bb5a.js.map"
+    "main.css": "/v_lab-practice-/v-lab/static/css/main.b8b01f5d.css",
+    "main.js": "/v_lab-practice-/v-lab/static/js/main.f25cb440.js",
+    "index.html": "/v_lab-practice-/v-lab/index.html",
+    "main.b8b01f5d.css.map": "/v_lab-practice-/v-lab/static/css/main.b8b01f5d.css.map",
+    "main.f25cb440.js.map": "/v_lab-practice-/v-lab/static/js/main.f25cb440.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b01f5d.css",
-    "static/js/main.8454bb5a.js"
+    "static/js/main.f25cb440.js"
   ]
 }
