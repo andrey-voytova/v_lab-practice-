@@ -1,0 +1,32 @@
+p{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.container{
+    margin-inline: auto;
+    margin-block-start: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
+    border-radius: 2px 2px 5px 5px;
+    padding: 10px 20px 20px 20px;
+    width: 90%;
+    max-width: 320px;
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 80px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color: revert;
+}
+.button{
+    padding: 5px 83px;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+}
