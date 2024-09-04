@@ -13,20 +13,20 @@ import ErrorPage from './routes/errorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/v_lab-practice-/v_lab",
     element: <Navigate to="login"/>,
     errorElement: <ErrorPage/>,
   },
   {
-    path: "/login",
+    path: "/v_lab-practice-/v_lab/login",
     element: <Login/>,
   },
   {
-    path: "/register",
+    path: "/v_lab-practice-/v_lab/register",
     element: <Register/>,
   },
   {
-    path: "/user",
+    path: "/v_lab-practice-/v_lab/user",
     element: <User/>,
   },
 ]);

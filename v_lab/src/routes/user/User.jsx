@@ -38,9 +38,7 @@ export default function User() {
       <button
       className={styles.button} 
       onClick={onLogout} >
-
         Log out
-
       </button>
     </div>
   )
