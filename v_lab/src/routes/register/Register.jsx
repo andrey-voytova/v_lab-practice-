@@ -61,7 +61,7 @@ export default function Register()  {
                 />
 
                 <button className={styles.button} type="submit">Register</button>
-                <p> Already have an account? <Link to={"https://andrey-voytova.github.io/v_lab-practice-/login"}>Login</Link></p>
+                <p> Already have an account? <Link to={"/login"}>Login</Link></p>
             </form>
         </div>
     )
