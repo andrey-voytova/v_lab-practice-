@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { createBrowserRouter, HashRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter,  HashRouter,  Link,  Navigate, Route, RouterProvider, Routes } from 'react-router-dom';
 import Login from './routes/login/Login';
 import Register from './routes/register/Register';
 import User from './routes/user/User';
@@ -13,20 +13,20 @@ import ErrorPage from './routes/errorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "https://github.io/andrey-voytova/v_lab-practice-/",
+    path: "/",
     element: <Navigate to="login"/>,
     errorElement: <ErrorPage/>,
   },
   {
-    path: "https://github.io/andrey-voytova/v_lab-practice-/login",
+    path: "/login",
     element: <Login/>,
   },
   {
-    path: "https://github.io/andrey-voytova/v_lab-practice-/register",
+    path: "/register",
     element: <Register/>,
   },
   {
-    path: "https://github.io/andrey-voytova/v_lab-practice-/user",
+    path: "/user",
     element: <User/>,
   },
   
@@ -36,9 +36,15 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <RouterProvider router={router}/>
-    </HashRouter>
+      <HashRouter >  
+            <Routes>
+                <Route path="/" element={<ErrorPage />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/user" element={<User />} />
+            </Routes>
+      </HashRouter>
   </React.StrictMode>
 );
+
 
