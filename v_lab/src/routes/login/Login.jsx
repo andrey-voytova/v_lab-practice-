@@ -25,7 +25,7 @@ export default function Login()  {
 
         try {
           let user = await doUserLogIn(email, password)
-          navigate("/v_lab-practice-/v_lab/user")
+          navigate("https://andrey-voytova.github.io/v_lab-practice-/user")
         } catch (error) {
           console.error(error.message)
           setError(error.message)
@@ -59,7 +59,7 @@ export default function Login()  {
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 <button className={styles.button} type="submit">Login</button>
-                <p> Don't have an account yet? <Link to={"/v_lab-practice-/v_lab/register"}>Register</Link></p>
+                <p> Don't have an account yet? <Link to={"https://andrey-voytova.github.io/v_lab-practice-/register"}>Register</Link></p>
             </form>
         </div>
     )

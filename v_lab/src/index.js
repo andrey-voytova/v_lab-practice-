@@ -13,20 +13,20 @@ import ErrorPage from './routes/errorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "/v_lab-practice-/v_lab",
+    path: "https://andrey-voytova.github.io/v_lab-practice-/",
     element: <Navigate to="login"/>,
     errorElement: <ErrorPage/>,
   },
   {
-    path: "/v_lab-practice-/v_lab/login",
+    path: "https://andrey-voytova.github.io/v_lab-practice-/login",
     element: <Login/>,
   },
   {
-    path: "/v_lab-practice-/v_lab/register",
+    path: "https://andrey-voytova.github.io/v_lab-practice-/register",
     element: <Register/>,
   },
   {
-    path: "/v_lab-practice-/v_lab/user",
+    path: "https://andrey-voytova.github.io/v_lab-practice-/user",
     element: <User/>,
   },
   
