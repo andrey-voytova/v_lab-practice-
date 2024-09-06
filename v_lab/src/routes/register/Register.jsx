@@ -28,7 +28,7 @@ export default function Register()  {
       try {
         let user = await doUserRegistration(username, password)
         user.setEmail(email).save()
-        navigate("/user")
+        navigate("https://github.io/andrey-voytova/v_lab-practice-/user")
       } catch (error) {
  
         setError(error.message)
@@ -61,7 +61,7 @@ export default function Register()  {
                 />
 
                 <button className={styles.button} type="submit">Register</button>
-                <p> Already have an account? <Link to={"/login"}>Login</Link></p>
+                <p> Already have an account? <Link to={"https://github.io/andrey-voytova/v_lab-practice-/login"}>Login</Link></p>
             </form>
         </div>
     )

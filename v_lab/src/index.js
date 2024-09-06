@@ -13,20 +13,20 @@ import ErrorPage from './routes/errorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "https://github.io/andrey-voytova/v_lab-practice-/",
     element: <Navigate to="login"/>,
     errorElement: <ErrorPage/>,
   },
   {
-    path: "/login",
+    path: "https://github.io/andrey-voytova/v_lab-practice-/login",
     element: <Login/>,
   },
   {
-    path: "/register",
+    path: "https://github.io/andrey-voytova/v_lab-practice-/register",
     element: <Register/>,
   },
   {
-    path: "/user",
+    path: "https://github.io/andrey-voytova/v_lab-practice-/user",
     element: <User/>,
   },
   
@@ -36,9 +36,9 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <HashRouter>
-    <RouterProvider router={router}/>
-  </HashRouter>
+    <HashRouter>
+      <RouterProvider router={router}/>
+    </HashRouter>
   </React.StrictMode>
 );
 

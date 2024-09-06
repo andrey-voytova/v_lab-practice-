@@ -16,7 +16,7 @@ export default function User() {
     (async () => {
       let loggedIn = await isLoggedIn();
       if (!loggedIn) {
-        navigate("/login");
+        navigate("https://github.io/andrey-voytova/v_lab-practice-/login");
       }
   
       let user = await getUser();
@@ -28,7 +28,7 @@ export default function User() {
 
   const onLogout = async () => {
     await logOut();
-    navigate("/login");
+    navigate("https://github.io/andrey-voytova/v_lab-practice-/login");
   }
   return (
     <div className={styles.container}>
