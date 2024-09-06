@@ -10,29 +10,6 @@ import ErrorPage from './routes/errorPage/ErrorPage';
 
 
 
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Navigate to="login"/>,
-    errorElement: <ErrorPage/>,
-  },
-  {
-    path: "/login",
-    element: <Login/>,
-  },
-  {
-    path: "/register",
-    element: <Register/>,
-  },
-  {
-    path: "/user",
-    element: <User/>,
-  },
-  
-]);
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
