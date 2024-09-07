@@ -30,3 +30,10 @@ p{
     background-clip: padding-box;
     border: 1px solid #bdbdbd;
 }
+.button:hover{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(17, 255, 0, 0.019);
+}
+.button:active{
+    background-color: #cb7dcb ;
+}
